@@ -5,7 +5,7 @@
              version="2.0">
     <persistence-unit name="chapter04">
         <description>Hibernate EntityManager Demo</description>
-        <class>ex3_idClass.Book3</class>
+        <class>ex4_SecondaryTables.Address</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> <!-- DB Driver -->
