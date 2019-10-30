@@ -1,0 +1,5 @@
+/.project
+/.settings
+.idea
+chapter04-putting-together/target
+jpa/target
