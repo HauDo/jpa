@@ -1,0 +1,5 @@
+@DiscriminatorColumn(name = "ObjectType", discriminatorType = DiscriminatorType.STRING)
+@DiscriminatorValue("I")
+
+
+@Column(nullable = false)
