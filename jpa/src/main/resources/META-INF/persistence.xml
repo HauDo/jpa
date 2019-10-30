@@ -5,9 +5,9 @@
              version="2.0">
     <persistence-unit name="chapter04">
         <description>Hibernate EntityManager Demo</description>
-        <class>ex13_Inheritance_SingerTablePerClass.Item13</class>
-        <class>ex13_Inheritance_SingerTablePerClass.Book13</class>
-        <class>ex13_Inheritance_SingerTablePerClass.CD13</class>
+        <class>ex14_Inheritance_JoinedSubClass.Item14</class>
+        <class>ex14_Inheritance_JoinedSubClass.Book14</class>
+        <class>ex14_Inheritance_JoinedSubClass.CD14</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> <!-- DB Driver -->
