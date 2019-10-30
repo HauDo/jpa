@@ -5,8 +5,8 @@
              version="2.0">
     <persistence-unit name="chapter04">
         <description>Hibernate EntityManager Demo</description>
-        <class>ex9_OneToOne_JoinColumn.Address2</class>
-        <class>ex9_OneToOne_JoinColumn.Customer2</class>
+        <class>ex10_OneToMany.OrderLine</class>
+        <class>ex10_OneToMany.Order</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> <!-- DB Driver -->
